@@ -8,42 +8,40 @@
 
 .back {
 	background-color: #777;
-/*	padding: 2% 10%;*/
-/*	margin-right: 5%;
-	margin-left: 5%;*/
+	margin-right: 5%;
+	margin-left: 5%;
 	max-width: 960px;
 }
 
 .header {
-	margin-top: 4%;
-	margin-bottom: 2%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 	background: #ebebeb;
 	padding: 3%;
 }
 
 .nav {
 	background-color: #ebebeb;
-	margin-top: 3%;
 	margin-bottom: 3%;
 	padding: 3%;
 }
 
 .section {
 	float: left;
-	height: 280px;
+	height: 240px;
 	width: 495px;
-	padding-top: 2%;
+	padding-top: 3%;
 	margin-right: 1%;
-	background: #ebebbf;
+	background: #ebebeb;
 }
 
-.article p {
-	padding-bottom: 60%;
-}
+/*.article p {
+	padding-bottom: 50%;
+}*/
 
 .aside {
 	clear: both;
-	height: 280px;
+	height: 240px;
 	float: right;
 	width: 360px;
 	padding-top: 3%;
@@ -52,13 +50,13 @@
 }
 
 .article {
-	height: 200px;
+	height: 50%;
 	padding-bottom: 3%;
 	width: 90%;
 	background-color: #777;
-	padding-top: 5%;
-	margin-top: 3%;
-	margin-bottom: 3%;
+	padding-top: 2%;
+	margin-top: 9%;
+	margin-bottom: 5%;
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -68,39 +66,41 @@
 }
 
 .box {
-	position: relative;
-	width: 80%;
-	height: 10%;
-	margin: 10%;
+	margin-top: 20%;
+	margin-right: 10%;
+	margin-left: 10%;
 	background-color: #ebebeb;
 }
 
 .box p {
 	margin-top: -200px;
-	margin-bottom: 10%;
+	padding: 3%;
 	color: #777;
 }
 
 .box1 {
 	position: relative;
-	width: 80%;
-	margin: 10%;
+	margin-right: 10%;
+	margin-left: 10%;
 	background-color: #ebebeb;
 }
 
 .box1 p {
-	margin-top: 0px;
+	margin-top: 2%;
 	color: #777;
+	padding: 3%;
 	font-style: bold;
 }
 
 .footer {
-	position: relative;
-	float: left;
-	width: 90%;
-	margin-top: 3%;
-	padding: 3%;
-	background: #ebebeb;
+	clear: both;
+    margin-top: 35%;
+    padding: 2%;
+    background: #ebebeb;
+}
+
+.footer p {
+	padding-top: 2%;
 }
 
 
